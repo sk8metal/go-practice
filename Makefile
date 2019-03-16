@@ -39,3 +39,7 @@ docker-build:
 # docker run
 docker-run:
 	docker run -it --rm --name ${CONTAINER_NAME} ${IMAGE_NAME}:${TAG}
+
+# godoc
+godoc:
+	godoc -http=:6060
